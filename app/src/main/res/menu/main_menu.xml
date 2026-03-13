@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_dashboard"
+        android:title="@string/title_dashboard" />
+    <item
+        android:id="@+id/action_rooms"
+        android:title="@string/title_rooms" />
+    <item
+        android:id="@+id/action_tenants"
+        android:title="@string/title_tenants" />
+    <item
+        android:id="@+id/action_invoices"
+        android:title="@string/title_invoices" />
+    <item
+        android:id="@+id/action_services"
+        android:title="@string/title_services" />
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/search" />
+</menu>
