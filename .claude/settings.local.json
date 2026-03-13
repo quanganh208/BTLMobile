@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"D:/Projects/BTLMobile\" && ./gradlew assembleDebug 2>&1)",
+      "Bash(cd \"D:/Projects/BTLMobile\" && ./gradlew --stop 2>&1; sleep 2; ./gradlew assembleDebug 2>&1)",
+      "Bash(rm -f ~/.gradle/wrapper/dists/gradle-9.3.1-bin/23ovyewtku6u96viwx3xl3oks/gradle-9.3.1-bin.zip.lck 2>/dev/null; sleep 1; cd \"D:/Projects/BTLMobile\" && ./gradlew assembleDebug 2>&1)",
+      "Bash(rm -f ~/.gradle/wrapper/dists/gradle-9.3.1-bin/23ovyewtku6u96viwx3xl3oks/*.lck ~/.gradle/wrapper/dists/gradle-9.3.1-bin/23ovyewtku6u96viwx3xl3oks/*.part; cd \"D:/Projects/BTLMobile\" && ./gradlew assembleDebug 2>&1)",
+      "Bash(tasklist | grep -i java)",
+      "Bash(cd \"D:/Projects/BTLMobile\" && ./gradlew assembleDebug --no-daemon 2>&1)",
+      "Bash(sleep 30 && cd \"D:/Projects/BTLMobile\" && ./gradlew assembleDebug 2>&1)",
+      "Bash(sleep 60 && cd \"D:/Projects/BTLMobile\" && ./gradlew assembleDebug 2>&1)",
+      "Bash(git add:*)",
+      "Bash(git rebase:*)"
+    ]
+  }
+}
