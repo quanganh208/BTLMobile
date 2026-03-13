@@ -10,7 +10,8 @@
       "Bash(sleep 30 && cd \"D:/Projects/BTLMobile\" && ./gradlew assembleDebug 2>&1)",
       "Bash(sleep 60 && cd \"D:/Projects/BTLMobile\" && ./gradlew assembleDebug 2>&1)",
       "Bash(git add:*)",
-      "Bash(git rebase:*)"
+      "Bash(git rebase:*)",
+      "Bash(./gradlew compileDebugJavaSources 2>&1 | tail -20)"
     ]
   }
 }
