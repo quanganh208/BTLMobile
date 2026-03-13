@@ -49,4 +49,25 @@
     <string name="total_tenants">Tổng người thuê</string>
     <string name="total_invoices">Tổng hóa đơn</string>
     <string name="revenue">Doanh thu</string>
+
+    <string name="title_room_detail">Chi tiết phòng</string>
+    <string name="title_statistics">Thống kê</string>
+    <string name="no_tenant">Chưa có người thuê</string>
+    <string name="no_data">Không có dữ liệu</string>
+    <string name="confirm_delete">Xác nhận xóa</string>
+    <string name="delete_room_confirm">Bạn có chắc muốn xóa phòng này?</string>
+    <string name="delete_tenant_confirm">Bạn có chắc muốn xóa người thuê này?</string>
+    <string name="delete_invoice_confirm">Bạn có chắc muốn xóa hóa đơn này?</string>
+    <string name="delete_service_confirm">Bạn có chắc muốn xóa dịch vụ này?</string>
+    <string name="manage">Quản lý</string>
+    <string name="room_info">Thông tin phòng</string>
+    <string name="tenant_info">Thông tin người thuê</string>
+    <string name="room_count">Tổng số phòng</string>
+    <string name="occupied_rooms">Phòng đã thuê</string>
+    <string name="available_rooms">Phòng trống</string>
+    <string name="maintenance_rooms">Phòng bảo trì</string>
+    <string name="occupancy_rate">Tỉ lệ lấp đầy</string>
+    <string name="total_revenue">Tổng doanh thu</string>
+    <string name="unpaid_amount">Chưa thanh toán</string>
+    <string name="vnd_format">%,.0f đ</string>
 </resources>

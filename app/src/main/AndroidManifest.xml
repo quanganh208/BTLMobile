@@ -11,17 +11,42 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BTLMobile">
+
+        <!-- Dashboard — LAUNCHER -->
         <activity
-            android:name=".MainActivity"
+            android:name=".controller.DashboardActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.BTLMobile">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Old splash / entry point, no longer the launcher -->
+        <activity android:name=".MainActivity" />
+
+        <!-- Room -->
+        <activity android:name=".controller.room.RoomListActivity" />
+        <activity android:name=".controller.room.RoomDetailActivity" />
+        <activity android:name=".controller.room.AddEditRoomActivity" />
+
+        <!-- Tenant -->
+        <activity android:name=".controller.tenant.TenantListActivity" />
+        <activity android:name=".controller.tenant.AddEditTenantActivity" />
+
+        <!-- Invoice -->
+        <activity android:name=".controller.invoice.InvoiceListActivity" />
+        <activity android:name=".controller.invoice.AddEditInvoiceActivity" />
+
+        <!-- Service -->
+        <activity android:name=".controller.service.ServiceListActivity" />
+        <activity android:name=".controller.service.AddEditServiceActivity" />
+
+        <!-- Search & Statistics -->
+        <activity android:name=".controller.SearchActivity" />
+        <activity android:name=".controller.StatisticsActivity" />
+
     </application>
 
 </manifest>
