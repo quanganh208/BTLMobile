@@ -39,7 +39,7 @@ public class SearchActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.recyclerViewResults);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        adapter = new RoomAdapter(displayedRooms, new RoomAdapter.OnItemClickListener() {
+        adapter = new RoomAdapter(new RoomAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(Room room) {
                 Toast.makeText(SearchActivity.this,

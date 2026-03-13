@@ -49,7 +49,7 @@ public class ServiceListActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.recyclerViewServices);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        adapter = new ServiceAdapter(serviceList, new ServiceAdapter.OnItemClickListener() {
+        adapter = new ServiceAdapter(new ServiceAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(Service service) {
                 Intent intent = new Intent(ServiceListActivity.this, AddEditServiceActivity.class);

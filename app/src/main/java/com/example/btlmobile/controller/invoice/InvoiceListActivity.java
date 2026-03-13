@@ -49,7 +49,7 @@ public class InvoiceListActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.recyclerViewInvoices);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        adapter = new InvoiceAdapter(invoiceList, new InvoiceAdapter.OnItemClickListener() {
+        adapter = new InvoiceAdapter(new InvoiceAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(Invoice invoice) {
                 Intent intent = new Intent(InvoiceListActivity.this, AddEditInvoiceActivity.class);
